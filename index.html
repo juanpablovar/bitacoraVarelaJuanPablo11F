@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" type="image/png" href="Documentos/Varela11F/recursos/img/logocapou.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Juan Pablo Varela</title>
+    <style>
+        html, body{
+            height: 100%;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            
+        }
+        header{
+            padding: 20px;
+            background-color: rgb(141, 141, 250);
+        }
+        main{
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            color: brown;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            border-top: 1px solid black;
+            background-color: rgb(244, 244, 214);
+        }
+        h1 {
+            color: white;
+            text-shadow: 
+            0 0 5px #4a20f0,
+            0 0 10px #205ef0,
+            0 0 20px #2070f0,
+            0 0 40px #8000ff;
+        }
+        .logo {
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+        }
+        .semana {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .semana:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bitácora Segunda y Tercera Unidad </h1>
+    </header>
+    <main>
+        <h4>Contenido de la página WEB</h4>
+        <div class="semana">
+            <h3>Semana 1</h3>
+            <p>Aprendí sobre HTML básico...</p>
+            <iframe src="recursos/IntroduccionArduino_JPVP.pdf"
+            width="100%"
+            height="200px">
+            </iframe>
+        </div>
+        <div class="semana">
+            <h3>Semana 2</h3>
+            <p>Aprendí sobre CSS...</p>
+            <video width="100%" height="400" controls>
+            <source src="recursos/Grabación 2026-05-13 134244.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+    <footer>
+        <span>@pochar</span>
+        <img class="logo" src="https://www.capouilliez.edu.gt/assets/img/logo.png" height="50" width="200">
+    </footer>
+    
+</body>
+</html>
