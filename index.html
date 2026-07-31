@@ -5,23 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitácora Juan Pablo Varela</title>
+
     <style>
         html, body{
             height: 100%;
             margin: 0;
             font-family: 'Times New Roman', Times, serif;
         }
+
         body{
             display: flex;
             flex-direction: column;
             text-align: center;
-
-            
         }
+
         header{
             padding: 20px;
             background-color: rgb(141, 141, 250);
         }
+
         main{
             flex: 1;
             padding: 20px;
@@ -29,6 +31,7 @@
             margin: 0 auto;
             color: brown;
         }
+
         footer{
             display: flex;
             justify-content: space-between;
@@ -37,22 +40,25 @@
             border-top: 1px solid black;
             background-color: rgb(244, 244, 214);
         }
-        h1 {
+
+        h1{
             color: white;
-            text-shadow: 
+            text-shadow:
             0 0 5px #4a20f0,
             0 0 10px #205ef0,
             0 0 20px #2070f0,
             0 0 40px #8000ff;
         }
-        .logo {
+
+        .logo{
             transition: transform 0.3s ease;
         }
 
-        .logo:hover {
+        .logo:hover{
             transform: scale(1.1);
         }
-        .semana {
+
+        .semana{
             background-color: white;
             border-radius: 15px;
             padding: 20px;
@@ -61,91 +67,111 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .semana:hover {
+        .semana:hover{
             transform: translateY(-5px);
             box-shadow: 0 8px 20px rgba(0,0,0,0.3);
         }
+
+        video, iframe{
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+            border: none;
+        }
+
+        iframe{
+            height: 250px;
+        }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Bitácora Segunda y Tercera Unidad </h1>
-    </header>
-    <main>
-        <h4>Contenido de la página WEB</h4>
-        <div class="semana">
-            <h3>Semana 1</h3>
-            <p>Aprendí sobre HTML básico...</p>
-            <iframe src="recursos/IntroduccionArduino_JPVP.pdf"
-            width="100%"
-            height="200px">
-            </iframe>
-        </div>
-        <div class="semana">
-            <h3>Semana 2</h3>
-            <p>Aprendí sobre CSS...</p>
-            <video width="100%" height="400" controls>
+
+<header>
+    <h1>Bitácora Segunda y Tercera Unidad</h1>
+</header>
+
+<main>
+
+    <h4>Contenido de la página WEB</h4>
+
+    <div class="semana">
+        <h3>Semana 1</h3>
+        <p>Aprendí sobre HTML básico...</p>
+
+        <iframe src="recursos/IntroduccionArduino_JPVP.pdf"></iframe>
+    </div>
+
+    <div class="semana">
+        <h3>Semana 2</h3>
+        <p>Aprendí sobre CSS...</p>
+
+        <video controls>
             <source src="recursos/Grabación 2026-05-13 134244.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="semana">
+        </video>
+    </div>
 
-            <h3>Semana 3</h3>
+    <div class="semana">
+        <h3>Semana 3</h3>
+        <p>Comenzamos a realizar un circuito a mano.</p>
 
-            <p>Comenzamos a realizar un circuito a mano.</p>
-
- 
-
-            <video width="100%" height="400" controls>
-
+        <video controls>
             <source src="recursos/videoled1.mp4" type="video/mp4">
+        </video>
+    </div>
 
-        
-
-            </video>
-
-        </div>
-
+    <div class="semana">
         <h3>Semana 4</h3>
+        <p>Realizamos un circuito a mano.</p>
 
-            <p>Realizamos un circuito a mano.</p>
+        <video controls>
+            <source src="recursos/VID-20260722-WA0009.mp4" type="video/mp4">
+        </video>
+    </div>
 
-            <video controls width="600">
+    <div class="semana">
+        <h3>Semana 5</h3>
+        <p>Continuamos con el montaje del circuito, realizando las conexiones y verificando su funcionamiento.</p>
 
-            <source src="VID-20260722-WA0009.mp4" type="video/mp4">
+        <!-- Agrega aquí el video cuando lo tengas -->
+        <!--
+        <video controls>
+            <source src="recursos/video5.mp4" type="video/mp4">
+        </video>
+        -->
+    </div>
 
-            </video>      
+    <div class="semana">
+        <h3>Semana 6</h3>
+        <p>Programamos y probamos un circuito con luces LED para verificar que encendieran correctamente según el código realizado.</p>
 
-        </div>
+        <!-- Agrega aquí el video cuando lo tengas -->
+        <!--
+        <video controls>
+            <source src="recursos/video6.mp4" type="video/mp4">
+        </video>
+        -->
+    </div>
 
-        <div class="semana">
+    <div class="semana">
+        <h3>Semana 7</h3>
+        <p>Programamos y probamos un circuito con luces LED para verificar que encendieran correctamente según el código realizado.</p>
 
-            <h3>Semana 5</h3>
-
-            <p>Continuamos con el montaje del circuito, realizando las conexiones y verificando su funcionamiento.</p>
-
-        </div>
-
-        <div class="semana">
-
-            <h3>Semana 6</h3>
-
-            <p>Programamos y probamos un circuito con luces LED para verificar que encendieran correctamente según el código realizado.</p>
-
-        </div>
-
-        <div class="semana">
-
-            <h3>Semana 6</h3>
-
-            <p>Programamos y probamos un circuito con luces LED para verificar que encendieran correctamente según el código realizado.</p>
-            <video width="100%" height="400" controls>
+        <video controls>
             <source src="recursos/G20260722-1950-02.7477023.mp4" type="video/mp4">
-    </main>
-    <footer>
-        <span>@pochar</span>
-        <img class="logo" src="https://www.capouilliez.edu.gt/assets/img/logo.png" height="50" width="200">
-    </footer>
-    
+        </video>
+    </div>
+
+</main>
+
+<footer>
+    <span>@pochar</span>
+
+    <img class="logo"
+         src="https://www.capouilliez.edu.gt/assets/img/logo.png"
+         height="50"
+         width="200">
+</footer>
+
 </body>
 </html>
